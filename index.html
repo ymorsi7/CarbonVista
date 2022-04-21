@@ -56,13 +56,664 @@
 							</ul>
 						</div>
 						<div class="col-6 col-12-medium">
-							<header class="major">
-								<h2>Lorem ipsum dolor adipiscing<br />
-								amet dolor consequat</h2>
-							</header>
-							<p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
-							<p>Blandit faucibus proin. Ac aliquam integer adipiscing enim non praesent vis commodo nunc phasellus cubilia ac risus accumsan. Accumsan blandit. Lobortis phasellus non lobortis dit varius mi varius accumsan lobortis. Blandit ante aliquam lacinia lorem lobortis semper morbi col faucibus vitae integer placerat accumsan orci eu mi odio tempus adipiscing adipiscing adipiscing curae consequat feugiat etiam dolore.</p>
-							<p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
+							
+						
+						
+						
+						
+						
+						
+
+						
+						
+						
+							<style>
+								#loading,
+								#results {
+								  display: none;
+								}
+								#loading {
+								  width: 100%;
+								}
+							  </style>
+
+
+
+
+
+
+
+
+
+
+
+
+							</head>
+							<body class="bg-dark">
+							  <div class="container">
+								<div class="row">
+								  <div class="col-lg-6 mx-auto">
+									<div class="card card-body text-center mt-5">
+									  <h1 class="heading display-5 pb-3">Carbon Calculator</h1>
+									  <form id="calorie-form">
+										<div class="form-group row">
+										  <label for="age" class="col-sm-2 col-form-label">Age</label>
+										  <div class="col-sm-10">
+											<input
+											  type="number"
+											  class="form-control"
+											  id="age"
+											  placeholder="Ages 15-80"
+											/>
+										  </div>
+										</div>
+						  
+										<fieldset class="form-group">
+										  <div class="row">
+											<legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+											<div class="col-sm-10" id="form-radio">
+											  <div
+												class="custom-control custom-radio custom-control-inline"
+											  >
+
+												<input
+												  type="radio"
+												  id="male"
+												  name="customRadioInline1"
+												  class="custom-control-input"
+												  checked="checked"
+												/>
+												<label class="custom-control-label" for="male"
+												  >Male</label
+												>
+											  </div>
+											  <div
+												class="custom-control custom-radio custom-control-inline"
+											  >
+												<input
+												  type="radio"
+												  id="female"
+												  name="customRadioInline1"
+												  class="custom-control-input"
+												/>
+												<label class="custom-control-label" for="female"
+												  >Female</label
+												>
+											  </div>
+											</div>
+										  </div>
+										</fieldset>
+						  
+										<div class="form-group row">
+										  <label for="weight" class="col-sm-2 col-form-label"
+											>Weight</label
+										  >
+										  <div class="col-sm-10">
+											<input
+											  type="number"
+											  class="form-control"
+											  id="weight"
+											  placeholder="In kilograms"
+											/>
+										  </div>
+										</div>
+						  
+										<div class="form-group row">
+										  <label for="height" class="col-sm-2 col-form-label"
+											>Height</label>
+
+										  <div class="col-sm-10">
+											<input
+											  type="number"
+											  class="form-control"
+											  id="height"
+											  placeholder="In centimeters"
+											/>
+										  </div>
+										</div>
+						  <br>
+										<div class="form-group row">
+										  <legend class="col-form-label col-sm-2 pt-0" style = "color:white">Select a Car:</legend>
+										 
+										  <select class="custom-select col-sm-10" id="list">
+
+											<option selected value="0">
+												Audi Sedan
+											  </option>
+											<option value="1">
+											  Audi Sedan
+											</option>
+											<option value="2">
+											  Audi SUV
+											</option>
+											<option value="3">
+											  Audi Sports
+											</option>
+											<option value="4">
+											  Acura Sedan
+											</option>
+											<option value="5">
+											  Acura SUV
+											</option>
+											<option value="6">
+												Acura Sports
+											  </option>
+											  <option value="7">
+												Alfa Romeo Sedan
+											  </option>
+											  <option value="8">
+												Alfa Romeo SUV
+											  </option>
+											  <option value="9">
+												Alfa Romeo Sports
+											  </option>
+											  <option value="10">
+												Aston Martin Sedan
+											  </option>
+											  <option value="11">
+												Aston Martin SUV
+											  </option>
+											  <option value="12">
+												Aston Martin Sports
+											  </option>
+											  <option value="13">
+												Bentley Sedan
+											  </option>
+											  <option value="14">
+												Bentley SUV
+											  </option>
+											  <option value="15">
+												Bentley Sports
+											  </option>
+											  <option value="16">
+												BMW Sedan
+											  </option>
+											  <option value="17">
+												BMW SUV
+											  </option>
+											  <option value="18">
+												BMW Sports
+											  </option>
+											  <option value="19">
+												Buick Sedan
+											  </option>
+											  <option value="20">
+												Buick SUV
+											  </option>
+											  <option value="21">
+												Buick Sports
+											  </option>
+											  <option value="22">
+												Cadillac Sedan
+											  </option>
+											  <option value="23">
+												Cadillac SUV
+											  </option>
+											  <option value="24">
+												Cadillac Sports
+											  </option>
+											  <option value="25">
+												Chevrolet Sedan
+											  </option>
+											  <option value="26">
+												Chevrolet SUV
+											  </option>
+											  <option value="26">
+												Chevrolet Sports
+											  </option>
+											  <option value="27">
+												Chrysler Sedan
+											  </option>
+											  <option value="28">
+												Chrysler SUV
+											  </option>
+											  <option value="29">
+												Chrysler Sports
+											  </option>
+											  <option value="30">
+												Dodge Sedan
+											  </option>
+											  <option value="31">
+												Dodge SUV
+											  </option>
+											  <option value="32">
+												Dodge Sports
+											  </option>
+											  <option value="33">
+												Ferrari Sports
+											  </option>
+											  <option value="34">
+												  FIAT
+											  </option>
+											  <option value="35">
+												Ford SUV
+											  </option>
+											  <option value="36">
+												Ford Sport
+											  </option>
+											  <option value="37">
+												Ford Sedan
+											  </option>
+											  <option value="38">
+												GMC Sedan
+											  </option>
+											  <option value="39">
+												GMC SUV
+											  </option>
+											  <option value="40">
+												Honda Sedan
+											  </option>
+											  <option value="41">
+												Honda SUV
+											  </option>
+											  <option value="42">
+												Honda Sport
+											  </option>
+											  <option value="43">
+												Hyundai Sport
+											  </option>
+											  <option value="44">
+												Hyundai SUV
+											  </option>
+											  <option value="45">
+												Hyundai Sedan
+											  </option>
+											  <option value="46">
+												Infiniti SUV
+											  </option>
+											  <option value="47">
+												Ifiniti Sedan
+											  </option>
+											  <option value="48">
+												Jaguar SUV
+											  </option>
+											  <option value="49">
+												Jaguar Sedan
+											  </option>
+											  <option value="50">
+												Jeep
+											  </option>
+											  <option value="51">
+												Kia SUV
+											  </option>
+											  <option value="52">
+												Kia Sedan
+											  </option>
+											  <option value="53">
+												Kia Sport
+											  </option>
+											  <option value="54">
+												Lamborghini SUV
+											  </option>
+											  <option value="55">
+												Lamborghini
+											  </option>
+											  <option value="56">
+												Land Rover SUV
+											  </option>
+											  <option value="57">
+												Land Rover Sport
+											  </option>
+											  <option value="58">
+												Lexus SUV
+											  </option>
+											  <option value="59">
+												Lexus Sedan
+											  </option>
+											  <option value="60">
+												Lexus Sport
+											  </option>
+											  
+											  <option value="61">
+												Lincoln SUV
+											  </option>
+											  <option value="62">
+												Lincoln Sedan
+											  </option>
+
+											  <option value="63">
+												Maserati SUV
+											  </option>
+											  <option value="64">
+												Maserati Sedan
+											  </option>
+											  <option value="65">
+												Mazda Sedan
+											  </option>
+											  <option value="66">
+												Mazda SUV
+											  </option>
+											  <option value="67">
+												Mercedes-Benz SUV
+											  </option>
+											  <option value="68">
+												Mercedes-Benz Sedan
+											  </option>
+											  <option value="69">
+												MINI
+											  </option>
+											  <option value="70">
+												Mitsubishi SUV
+											  </option>
+											  <option value="71">
+												Mitsubishi Sedan
+											  </option>
+											  <option value="72">
+												Nissan Sedan
+											  </option>
+											  <option value="73">
+												Nissan SUV
+											  </option>
+											  <option value="74">
+												Nissan Sport
+											  </option>
+											  <option value="75">
+												Nissan Truck
+											  </option>
+											  <option value="76">
+												Porsche SUV
+											  </option>
+											  <option value="77">
+												Porsche Sedan
+											  </option>
+											  <option value="78">
+												Porsche Sport
+											  </option>
+											  <option value="79">
+												Ram SUV
+											  </option>
+											  <option value="80">
+												Ram Truck
+											  </option>
+											  <option value="81">
+												Rolls-Royce
+											  </option>
+											  <option value="82">
+												Subaru SUV
+											  </option>
+											  <option value="83">
+												Subaru Sedan
+											  </option>
+											  <option value="84">
+												Tesla
+											  </option>
+											  <option value="84">
+												Toyota Sedan
+											  </option>
+											  <option value="85">
+												Toyota SUV
+											  </option>
+											  <option value="86">
+												Toyota Truck
+											  </option>
+											  <option value="87">
+												Toyota Sport
+											  </option>
+											  <option value="88">
+												Volkswagen Sedan
+											  </option>
+											  <option value="89">
+												Volkswagen SUV
+											  </option>
+											  <option value="90">
+												Volkswagen Sport
+											  </option>
+											  <option value="91">
+												Volvo SUV 
+											  </option>
+											  <option value="92">
+												Volvo Sedan 
+											  </option>
+										  </select>
+										</div>
+						  <br>
+										<div class="form-group">
+										  <input
+											type="submit"
+											value="Calculate"
+											class="btn btn-dark btn-block"
+										  />
+										</div>
+									  </form>
+						  
+									  <div id="loading">
+										<img src="./img/Loading.gif" alt="" />
+									  </div>
+						  
+									  <div id="results" class="pt-4">
+										<h5>Total Calories</h5>
+										<div class="form-group">
+										  <div class="input-group">
+											<input
+											  type="number"
+											  class="form-control"
+											  id="total-calories"
+											  disabled
+											/>
+										  </div>
+										</div>
+									  </div>
+									</div>
+								  </div>
+								</div>
+							  </div>
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+							  
+							  <script>
+								document
+								  .getElementById("calorie-form")
+								  .addEventListener("submit", function (e) {
+									document.getElementById("results").style.display = "none";
+						  
+									document.getElementById("loading").style.display = "block";
+						  
+									setTimeout(calculateCalories, 2000);
+						  
+									e.preventDefault();
+								  });
+						  
+								function calculateCalories(e) {
+								  const age = document.getElementById("age");
+								  const gender = document.querySelector(
+									'input[name="customRadioInline1"]:checked'
+								  );
+								  const weight = document.getElementById("weight");
+								  const height = document.getElementById("height");
+								  const activity = document.getElementById("list").value;
+								  const totalCalories = document.getElementById("total-calories");
+						  
+								  if (
+									age.value === "" ||
+									weight.value === "" ||
+									height.value === "" ||
+									80 < age.value ||
+									age.value < 15
+								  ) {
+									errorMessage("Please make sure the values you entered are correct");
+								  } else if (gender.id === "male" && activity === "1") {
+									totalCalories.value =
+									  1.2 *
+									  (66.5 +
+										13.75 * parseFloat(weight.value) +
+										5.003 * parseFloat(height.value) -
+										6.755 * parseFloat(age.value));
+								  } else if (gender.id === "male" && activity === "2") {
+									totalCalories.value =
+									  1.375 *
+									  (66.5 +
+										13.75 * parseFloat(weight.value) +
+										5.003 * parseFloat(height.value) -
+										6.755 * parseFloat(age.value));
+								  } else if (gender.id === "male" && activity === "3") {
+									totalCalories.value =
+									  1.55 *
+									  (66.5 +
+										13.75 * parseFloat(weight.value) +
+										5.003 * parseFloat(height.value) -
+										6.755 * parseFloat(age.value));
+								  } else if (gender.id === "male" && activity === "4") {
+									totalCalories.value =
+									  1.725 *
+									  (66.5 +
+										13.75 * parseFloat(weight.value) +
+										5.003 * parseFloat(height.value) -
+										6.755 * parseFloat(age.value));
+								  } else if (gender.id === "male" && activity === "5") {
+									totalCalories.value =
+									  1.9 *
+									  (66.5 +
+										13.75 * parseFloat(weight.value) +
+										5.003 * parseFloat(height.value) -
+										6.755 * parseFloat(age.value));
+								  } else if (gender.id === "female" && activity === "1") {
+									totalCalories.value =
+									  1.2 *
+									  (655 +
+										9.563 * parseFloat(weight.value) +
+										1.85 * parseFloat(height.value) -
+										4.676 * parseFloat(age.value));
+								  } else if (gender.id === "female" && activity === "2") {
+									totalCalories.value =
+									  1.375 *
+									  (655 +
+										9.563 * parseFloat(weight.value) +
+										1.85 * parseFloat(height.value) -
+										4.676 * parseFloat(age.value));
+								  } else if (gender.id === "female" && activity === "3") {
+									totalCalories.value =
+									  1.55 *
+									  (655 +
+										9.563 * parseFloat(weight.value) +
+										1.85 * parseFloat(height.value) -
+										4.676 * parseFloat(age.value));
+								  } else if (gender.id === "female" && activity === "4") {
+									totalCalories.value =
+									  1.725 *
+									  (655 +
+										9.563 * parseFloat(weight.value) +
+										1.85 * parseFloat(height.value) -
+										4.676 * parseFloat(age.value));
+								  } else {
+									totalCalories.value =
+									  1.9 *
+									  (655 +
+										9.563 * parseFloat(weight.value) +
+										1.85 * parseFloat(height) -
+										4.676 * parseFloat(age.value));
+								  }
+						  
+								  document.getElementById("results").style.display = "block";
+						  
+								  document.getElementById("loading").style.display = "none";
+								}
+						  
+								function errorMessage(error) {
+								  document.getElementById("results").style.display = "none";
+						  
+								  document.getElementById("loading").style.display = "none";
+								  const errorDiv = document.createElement("div");
+								  const card = document.querySelector(".card");
+								  const heading = document.querySelector(".heading");
+								  errorDiv.className = "alert alert-danger";
+								  errorDiv.appendChild(document.createTextNode(error));
+						  
+								  card.insertBefore(errorDiv, heading);
+						  
+								  setTimeout(clearError, 4000);
+								}
+						  
+								function clearError() {
+								  document.querySelector(".alert").remove();
+								}
+							  </script>
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+							  <!-- Optional JavaScript -->
+							  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+							  <script
+								src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+								integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+								crossorigin="anonymous"
+							  ></script>
+							  <script
+								src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+								integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+								crossorigin="anonymous"
+							  ></script>
+							  <script
+								src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+								integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+								crossorigin="anonymous"
+							  ></script>
+							</body>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
 						</div>
 					</div>
 				</div>
