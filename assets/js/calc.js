@@ -400,5 +400,4 @@ document
 						  
 								function clearError() {
 								  document.querySelector(".alert").remove();
-								}
-							  
+								}}
