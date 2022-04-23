@@ -36,62 +36,83 @@ document
 								  
                                 } else if (activity === "2") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/27)*parseFloat(age.value));
+
                                 } else if (activity === "3") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/19)*parseFloat(age.value));
+
                                 } else if (activity === "03") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/32)*parseFloat(age.value));
+
                                 } else if (activity === "4") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/28)*parseFloat(age.value));
+
                                 } else if (activity === "5") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/22.5)*parseFloat(age.value));
+
                                 } else if (activity === "6") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/25)*parseFloat(age.value));
+
                                 } else if (activity === "7") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/28.5)*parseFloat(age.value));
+
                                 } else if (activity === "8") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/25)*parseFloat(age.value));
+
+                                    
                                 } else if (activity === "9") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/28)*parseFloat(age.value));
+                                    
                                 } else if (activity === "10") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/21)*parseFloat(age.value));
+
+
                                 } else if (activity === "11") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/15)*parseFloat(age.value));
+
                                 } else if (activity === "12") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/18)*parseFloat(age.value));
+
                                 } else if (activity === "13") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/18)*parseFloat(age.value));
+
+
                                 } else if (activity === "14") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/15.4)*parseFloat(age.value));
+
                                 } else if (activity === "15") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/14)*parseFloat(age.value));
+
                                 } else if (activity === "16") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/25)*parseFloat(age.value));
+
                                 } else if (activity === "17") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/19)*parseFloat(age.value));
                                 
                                 } else if (activity === "18") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/25)*parseFloat(age.value));
+
                                 } else if (activity === "19") {
 									totalCalories.value =
                                     ((20.35/22)*parseFloat(age.value));
+                                    
                                 } else if (activity === "20") {
 									totalCalories.value =
                                     ((20.35/22)*parseFloat(age.value));
@@ -158,66 +179,79 @@ document
 									totalCalories.value =
                                     ((20.35/22)*parseFloat(age.value));
 
+
+
+
+
+
+
+
+
+
                                 } else if (activity === "36") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/15)*parseFloat(age.value));
 
                                 } else if (activity === "37") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/29)*parseFloat(age.value));
 
                                 } else if (activity === "38") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/14)*parseFloat(age.value));
                                 } else if (activity === "39") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/26)*parseFloat(age.value));
                                 } else if (activity === "40") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/28)*parseFloat(age.value));
                                 } else if (activity === "41") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/23)*parseFloat(age.value));
                                 } else if (activity === "42") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/27)*parseFloat(age.value));
                                 } else if (activity === "43") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/25)*parseFloat(age.value));
                                 } else if (activity === "44") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/26)*parseFloat(age.value));
                                 } else if (activity === "45") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/33)*parseFloat(age.value));
                                 } else if (activity === "46") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/21)*parseFloat(age.value));
                                 } else if (activity === "47") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/25)*parseFloat(age.value));
                                 } else if (activity === "48") {
 									totalCalories.value =
                                     ((20.35/22)*parseFloat(age.value));
                                 } else if (activity === "49") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/29)*parseFloat(age.value));
                                 } else if (activity === "50") {
 									totalCalories.value =
                                     ((20.35/22)*parseFloat(age.value));
                                 } else if (activity === "51") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/23)*parseFloat(age.value));
                                 } else if (activity === "52") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/32)*parseFloat(age.value));
                                 } else if (activity === "53") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
+                                    ((20.35/27)*parseFloat(age.value));
                                 } else if (activity === "54") {
 									totalCalories.value =
-                                    ((20.35/22)*parseFloat(age.value));
-                                } else if (activity === "55") {
+                                    ((20.35/14)*parseFloat(age.value));
+                                } 
+                                
+                                
+                                
+                                else if (activity === "55") {
 									totalCalories.value =
                                     ((20.35/22)*parseFloat(age.value));
                                 } else if (activity === "56") {
@@ -366,5 +400,4 @@ document
 						  
 								function clearError() {
 								  document.querySelector(".alert").remove();
-								}
-							  
+								}}
