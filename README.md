@@ -1,5 +1,5 @@
 # CarbonVista
-</br>
+
 ## Team Members: </br>
 - Ali Darwish
 - Fahad Al-Khuzam
