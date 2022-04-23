@@ -404,6 +404,11 @@ document
                                 } else if (activity === "94") {
 									totalCalories.value =
                                     ((20.35/30)*parseFloat(age.value));
+
+
+                                }   else {
+                                    totalCalories.value =
+                                    ((20.35/30)*parseFloat(age.value)); } 
 						  
 								  document.getElementById("results").style.display = "block";
 						  
@@ -427,4 +432,4 @@ document
 						  
 								function clearError() {
 								  document.querySelector(".alert").remove();
-								}}
+								}
