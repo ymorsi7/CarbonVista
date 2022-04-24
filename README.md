@@ -10,7 +10,7 @@
 ## Inspiration
 Our team was inspired by [this](https://streets.mn/2019/09/06/graphic-whats-a-vehicles-carbon-footprint/) site, which developed a formula to calculate carbon emissions from vehicles. Using our web development knowledge, we decided to implement this very formula in the form of a website.
 ## What it does
-Our website calculates how many pounds of gallons the user's vehicle emits per day. 
+Our website calculates how many pounds of CO2 the user's vehicle emits per day. 
 ## How we built it
 We created our website using HTML, CSS, and JavaScript.
 ## Challenges we ran into
